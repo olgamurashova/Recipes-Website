@@ -350,7 +350,7 @@ ul {
         align-items: center;
         width: 100%;
     }
-    .nav-links {
+    .nav-link {
         padding: 0;
         border-top: none;
         margin-right: 1rem;
@@ -358,5 +358,6 @@ ul {
     }
     .contact-link {
         margin-left: auto;
+        margin-right: 0;
     }
 }
