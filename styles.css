@@ -444,7 +444,20 @@ RECIPES
 .tags-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
+
+.tags-list a {
+  text-transform: capitalize;
+  display: block;
+  color: var(--grey-500);
+  transition: var(--transition);
+}
+
+.tags-list a:hover {
+  color: var(--primary-500);
+}
+
 
 /*FOOTER*/
 
