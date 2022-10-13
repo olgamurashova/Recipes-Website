@@ -408,6 +408,43 @@ ul {
   
 }
 
+/*
+==========
+RECIPES
+==========
+*/
+.recipes-container {
+  display: grid;
+  gap: 2rem 1rem;
+  border: 2px solid red;
+
+}
+
+.tags-container {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.recipes-list {
+  display: grid;
+  gap: 2rem 1 rem;
+  padding-bottom: 3rem;
+
+}
+
+.tags-container h4 {
+  margin-bottom: 0.5 rem;
+  font-weight: 500;
+
+
+}
+
+.tags-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*FOOTER*/
 
