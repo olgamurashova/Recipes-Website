@@ -315,6 +315,7 @@ ul {
     padding: 1rem 0;
     border-top: 1px solid var(--grey-500);
     transition: var(--transition);
+    font-size: 1.25rem;
 }
 
 .nav-link:hover {
@@ -326,7 +327,7 @@ ul {
 
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     .nav-btn {
         display: none;
     }
@@ -342,6 +343,7 @@ ul {
     .nav-header {
         height: auto;
         margin-right: 2rem;
+        padding: 0;
     }
 
     .nav-links {
@@ -367,7 +369,7 @@ ul {
     width: 90vw;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 2rem;
+    padding-top: 2rem;
     min-height: calc(100vh - (6rem + 4rem));
 }
 
@@ -473,6 +475,7 @@ RECIPES
 
 .recipe h5 {
   margin-bottom: 0;
+  margin-top: 0.25rem;
   line-height: 1;
   color: var(--grey-700);
 
@@ -486,7 +489,7 @@ RECIPES
   letter-spacing: var(--letterSpacing);
 }
 
-@media screen and(min-width: 576px){
+@media screen and (min-width: 576px){
   .recipes-list {
     grid-template-columns: 1fr 1fr;
   }
@@ -496,9 +499,10 @@ RECIPES
   
   
 }
-@media screen and(min-width: 992px){
+@media screen and (min-width: 992px){
   .recipes-container {
     grid-template-columns: 200px 1fr;
+    gap: 1rem;
   }
   .recipe p {
     font-size: 0.85rem;
@@ -509,11 +513,12 @@ RECIPES
   }
   tags-list {
     grid-template-columns: 1fr;
+    display: grid;
   }
 
   
 }
-@media screen and(min-width: 1200px){
+@media screen and (min-width: 1200px){
 
   
 }
