@@ -552,3 +552,17 @@ RECIPES
 .footer-logo {
     color: var(--primary-500);
 }
+
+/*
+=============================
+ERROR PAGE
+=============================
+*/
+.error-page {
+  text-align: center;
+  padding: 5rem;
+
+}
+.error-page h1{
+  font: 9rem;
+}
