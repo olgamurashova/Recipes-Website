@@ -575,7 +575,7 @@ ABOUT PAGE
 
 .about-page h2 {
   text-transform: none;
-  font-size: bold;
+  font-weight: bold;
 }
 
 .about-page {
@@ -584,6 +584,24 @@ ABOUT PAGE
   padding-bottom: 3rem;
 }
 
+.about-img {
+  border-radius: var(--borderRadius);
+  height: 300px;
+
+}
+
+@media screen and (min-width: 992px) {
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    align-items: center;
+
+  }
+  .about-img {
+    height: 100%;
+  }
+  
+}
 
 
 .featured-title {
