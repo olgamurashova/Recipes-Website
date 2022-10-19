@@ -678,3 +678,30 @@ CONTACT PAGE
 
 }
   
+/*
+===============
+SINGLE RECIPE PAGE
+====================
+*/
+
+.recipe-hero {
+  display: grid;
+  gap: 3rem;
+}
+
+.recipe-hero-img {
+  height: 300px;
+  border-radius: var(--borderRadius);
+
+}
+.recipe-hero p {
+  color: var(--grey-600);
+}
+
+.recipe-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
