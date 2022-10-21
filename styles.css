@@ -258,8 +258,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .nav-center {
@@ -273,15 +271,16 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+.nav-header img {
+  width: 200px;
+}
+
 
 .nav-logo {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.nav-header img {
-    width: 200px;
-}
 
 .nav-btn {
     padding: 0.15rem 0.75rem;
@@ -302,20 +301,20 @@ ul {
 }
 
 .show-links {
-    height: 310px;
+    height: 23.9375rem;
 }
 
 
 .nav-link {
-    display: block;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--grey-900);
-    letter-spacing: var(--letterSpacing);
-    padding: 1rem 0;
-    border-top: 1px solid var(--grey-500);
-    transition: var(--transition);
-    font-size: 1.25rem;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--grey-900);
+  letter-spacing: var(--letterSpacing);
+  padding: 1rem 0;
+  border-top: 1px solid var(--grey-500);
+  transition: var(--transition);
+  font-size: 1.25rem;
 }
 
 .nav-link:hover {
@@ -323,7 +322,7 @@ ul {
 }
 
 .contact-link a {
-    padding: 0.15rem 1rem ;
+    padding: 0.15rem 1rem;
 
 }
 
